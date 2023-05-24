@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
+form {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 400px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.half-width, .full-width {
+    background: rgb(39,134,10);
+    border-width: 0px;
+    padding: 8px;
+    color: #fff;
+    background: -moz-linear-gradient(99deg, rgba(39,134,10,1) 0%, rgba(156,160,255,1) 0%, rgba(248,168,255,1) 100%);
+    background: -webkit-linear-gradient(99deg, rgba(39,134,10,1) 0%, rgba(156,160,255,1) 0%, rgba(248,168,255,1) 100%);
+    background: linear-gradient(99deg, rgba(39,134,10,1) 0%, rgba(156,160,255,1) 0%, rgba(248,168,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#27860a",endColorstr="#f8a8ff",GradientType=1);
+}
+.half-width::placeholder, .full-width::placeholder {
+    color: #fff;
+}
+.half-width {
+    flex: 1;
+}
+
+.full-width {
+    width: 100%;
+
+}
+
+.submit-button {
+    font-family: 'PT Sans Narrow', sans-serif;
+    border-width: 0px;
+    padding: 5px 20px;
+    display: block;
+    margin: 0 auto;
+    color:#fff;
+
+    background: rgb(39,134,10);
+    background: -moz-linear-gradient(99deg, rgba(39,134,10,1) 0%, rgba(36,42,201,1) 34%, rgba(91,2,99,1) 100%);
+    background: -webkit-linear-gradient(99deg, rgba(39,134,10,1) 0%, rgba(36,42,201,1) 34%, rgba(91,2,99,1) 100%);
+    background: linear-gradient(99deg, rgba(39,134,10,1) 0%, rgba(36,42,201,1) 34%, rgba(91,2,99,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#27860a",endColorstr="#5b0263",GradientType=1);
+}
